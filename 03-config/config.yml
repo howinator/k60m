@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: k60m
+data:
+  NODE_ENV: "production"
+  USER_NAME: howie-test
+---
+apiVersion: v1
+kind: Secret
+metadata: 
+  name: twitter-creds
+type: Opaque
+stringData:
+  TWITTER_BEARER_TOKEN: <insert secret>
