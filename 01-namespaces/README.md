@@ -13,5 +13,5 @@ Note: for the rest of this workshop, I will use `k` instead of `kubectl`. Run `a
 Confirm the namespace was created by running `k get ns`.
 
 Finally, let's change our default namespace in kubectl to the namespace we just created.
-Run `k config set-conext --current --namespace=<your name>`.
+Run `k config set-context --current --namespace=<your name>`.
 If you see an error when running this, make sure you have `KUBECONFIG=~/.kube/k8s-1-18-3-do-eng-global-kubeconfig.yaml` set in your shell.

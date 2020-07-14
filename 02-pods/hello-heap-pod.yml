@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hello-heap
+spec:
+  containers:
+    - name: hello
+      image: howinator/k60ms-02-pods
+
