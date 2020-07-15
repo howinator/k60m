@@ -5,5 +5,5 @@ metadata:
 spec:
   containers:
     - name: hello
-      image: howinator/k60ms-02-pods
+      image: howinator/k60m-02-pods
 

@@ -35,4 +35,6 @@ The kube-proxy process is a simple network proxy which maintains a set of networ
 # Where I Cheated
 
 I'm using a managed Digital Ocean cluster which I set up using a couple clicks in the Digital Ocean interface.
-I also installed a few "one-click apps" into the cluster to show the power of the k8s ecosystem.
+I also installed a few "one-click apps" into the cluster for monitoring.
+Lastly, I used a k8s package monitor called helm to install the ingress controller and the cert-manager.
+The ingress controller automatically creates a Digital Ocean load balancer which routes traffic to the ingress.
