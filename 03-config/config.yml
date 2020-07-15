@@ -4,7 +4,7 @@ metadata:
   name: k60m-config
 data:
   NODE_ENV: "production"
-  USER_NAME: howie-test
+  USER_NAME: <your name>
 ---
 apiVersion: v1
 kind: Secret
